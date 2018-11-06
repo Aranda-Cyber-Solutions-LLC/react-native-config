@@ -1,13 +1,10 @@
 buildscript {
     repositories {
         maven {
-            url 'https://dl.google.com/dl/android/maven2'
-        }
-        jcenter()
-        maven {
             url 'https://maven.google.com/'
             name 'Google'
         }
+        jcenter()
     }
 
     dependencies {
